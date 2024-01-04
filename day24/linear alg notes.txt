@@ -1,0 +1,30 @@
+px + vx * t = p1x + v1x * t (1)
+py + vy * t = p1y + v1y * t (2)
+pz + vz * t = p1z + v1z * t (3)
+
+
+0 = p1x - px + t(v1x - vx)
+t = (px - p1x) / (v1x-vx) (1)
+
+t = (py - p1y) / (v1y-vy) (2)
+
+(px - p1x) / (v1x-vx) = (py - p1y) / (v1y-vy) (1+2)
+
+(px - p1x) (v1y - vy) = (py - p1y) (v1x - vx)
+px * v1y - px * vy - p1x * v1y + p1x * vy = py * v1x - py * vx - p1y * v1x + p1y * vx
+
+
+py*vx - px*vy = - px * v1y + p1x * v1y - p1x * vy + py * v1x - p1y * v1x + p1y * vx
+
+
+- px * v2y + p2x * v2y - p2x * vy + py * v2x - p2y * v2x + p2y * vx = - px * v1y + p1x * v1y - p1x * vy + py * v1x - p1y * v1x + p1y * vx
+
+ = 
+
+
+	
+-px (v2y - v1y) + py(v2x - v1x) + vx(p2y - p1y) - vy(p2x - p1x) = p1x * v1y - p1y * v1x - p2x * v2y + p2y * v2x
+-px (v3y - v1y) + py(v3x - v1x) + vx(p3y - p1y) - vy(p3x - p1x) = p1x * v1y - p1y * v1x - p3x * v3y + p3y * v3x
+-px (v3y - v2y) + py(v3x - v2x) + vx(p3y - p2y) - vy(p3x - p2x) = p2x * v2y - p2y * v2x - p3x * v3y + p3y * v3x
+
+
